@@ -7,6 +7,9 @@ export const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center'
     },
+    textLabel: {
+        paddingLeft: 15,
+    },
     formTitle:{
         fontSize: 36,
         fontWeight: 'bold',
@@ -18,33 +21,26 @@ export const styles = StyleSheet.create({
         borderWidth: 1,
         borderRadius: 10,
         fontSize: 22,
-        width: '80%',
+        minWidth: '80%',
         padding: 10,
         margin: 10
     },
-    formButton: {
-        backgroundColor: 'blueviolet',
-        width: '80%',
-        margin: 10,
-        padding: 10,
-        borderRadius: 10,
-        alignItems: 'center',
-        justifyContent: 'space-evenly'
-    },
-    textButton: {
-        color: 'white',
-        fontSize: 20,
-        fontWeight: 'bold'
-    },
-    subContainer: {
-        width: '80%',
+    buttonContent: {
+        height: 50,
+        gap: 10,
         flexDirection: 'row',
-        justifyContent: 'space-between',
+        alignItems: 'center'
     },
-    subButton: {
+    button: {
+        minWidth: '30%',
+        backgroundColor: 'blueviolet',
         padding: 10,
+        alignItems: "center",
+        borderRadius: 7,
+        marginBottom: 7
     },
-    subTextButton: {
-        color: 'blueviolet',
+    buttonText: {
+        color: '#fff',
+        fontWeight: 'bold'
     }
 })
