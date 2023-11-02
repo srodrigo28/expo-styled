@@ -47,6 +47,7 @@ export default function Home() {
             placeholder=""
         />
       </View>
+      
     <View style={styles.buttonContent}>
         <Link href="/Home" asChild>
             <TouchableOpacity disabled={buttonStatus} style={styles.button}>
